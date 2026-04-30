@@ -1,0 +1,19 @@
+{
+  "name": "CDL Study — CA Class A",
+  "short_name": "CDL Study",
+  "description": "Personal CA Class A CDL study app — practice tests, pre-trip drills, handbook reference.",
+  "start_url": ".",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

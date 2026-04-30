@@ -1,0 +1,16 @@
+# Local working files
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+node_modules/
+
+# Don't commit raw PDF extracts (they're large and reproducible from the PDFs)
+content/raw/
+
+# Don't commit the source PDFs — they're licensed materials
+*.pdf
+
+# Personal progress data (only in browser; just in case)
+*.indexeddb
