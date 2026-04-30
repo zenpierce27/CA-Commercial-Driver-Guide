@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "source": "DL-650 California Commercial Driver Handbook + DL-650-X 2023 Modernized Supplement",
+  "banks": [
+    {
+      "id": "general-knowledge",
+      "name": "General Knowledge",
+      "description": "Sections 1, 2, 3 — required for all CDL classes",
+      "handbookSections": ["1", "2", "3"],
+      "testLength": 50,
+      "passing": 0.8
+    },
+    {
+      "id": "air-brakes",
+      "name": "Air Brakes",
+      "description": "Section 5 — required to remove the L/Z restriction",
+      "handbookSections": ["5"],
+      "testLength": 25,
+      "passing": 0.8
+    },
+    {
+      "id": "combination-vehicles",
+      "name": "Combination Vehicles",
+      "description": "Section 6 — required for Class A",
+      "handbookSections": ["6"],
+      "testLength": 20,
+      "passing": 0.8
+    },
+    {
+      "id": "doubles-triples",
+      "name": "Doubles / Triples (T)",
+      "description": "Section 7 — endorsement T",
+      "handbookSections": ["7"],
+      "testLength": 20,
+      "passing": 0.8
+    },
+    {
+      "id": "tank-vehicles",
+      "name": "Tanker (N)",
+      "description": "Section 8 — endorsement N",
+      "handbookSections": ["8"],
+      "testLength": 20,
+      "passing": 0.8
+    }
+  ],
+  "tests_jason_needs": [
+    "general-knowledge",
+    "air-brakes",
+    "combination-vehicles",
+    "doubles-triples",
+    "tank-vehicles"
+  ],
+  "skills_test": {
+    "vehicle_inspection": "11M (2023 Modernized Supplement)",
+    "basic_control": "Section 12",
+    "road_test": "Section 13"
+  }
+}
